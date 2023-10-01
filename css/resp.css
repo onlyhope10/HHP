@@ -1,0 +1,131 @@
+/* Home Page */
+
+@media only screen and (max-width: 600px) {
+    #hero-image {
+        padding: 60px;
+        height: 460px;
+    }
+    
+    #navCon {
+        width: 100%;
+    }
+    .HotelPalace {
+        width: 100%;
+    }
+    .hero-content {
+        height: 360px;
+    }
+    .hero-content .btn {
+        padding: 6px;
+    }
+    .HotelPalace {
+        display: flex;
+        flex-direction: column;
+        height: 820px;
+    }
+    .HotelStories {
+        padding: 20px;
+    }
+
+    .HotelStories .btn2 {
+        padding: 6px;
+    }
+    #features {
+        height: 320px;
+    }
+    .GreatLocation{
+        padding: 10px;
+        height: 320px;
+    }
+    .FreeMeal{
+        padding: 10px;
+        height: 320px;
+    }
+    .FitnessRoom{
+        padding: 10px;
+        height: 320px;
+    }
+}
+
+/* ABOUT */
+
+@Media only screen and (max-width:600px){
+    .HotelTA {
+        padding: 10px;
+        height: 360px;
+        margin: 0;
+    }
+    .HotelTA-content {
+        float: none;
+        width: 100%;
+        
+    }
+    .HotelTA-image {
+        display:none;
+    }
+    .OurGuest {
+        padding: 40px 20px;
+        height: 1020px;
+    }
+    .OurGuest h1{
+        font-size: 32px;
+        margin: 20px;
+    }
+    .OurGuest .person1, .person2{
+        padding: 10px;
+    }
+}
+
+/* Contact  */
+
+@media only screen and (max-width:600px){
+    .conForm {
+        padding: 20px;
+    }
+    .conForm form {
+        padding: 0;
+    }
+    .form-group input {
+        width: 100%;
+    }
+    #contact-info {
+        padding: 20px 10px;
+        height: 320px;
+    }
+    .location {
+        padding: 6px;
+    }
+    .location h3{
+        font-size: 12px;
+    }
+    .location p{
+        font-size: 12px;
+    }
+
+    .contactNum {
+        padding: 6px;
+        margin-left: 22px;
+    }
+
+    .contactNum h3 {
+        font-size: 12px;
+    }
+
+    .contactNum p{
+        font-size: 12px;
+    }
+
+    .EmailAt {
+        padding: 6px;
+        margin: 0 120px;
+        
+    }
+
+    .EmailAt h3{
+        font-size: 12px;
+    }
+
+    .EmailAt p{
+        font-size: 12px;
+    }
+}
